@@ -21,7 +21,7 @@ interval = setInterval(function() {
   imgDiv.empty();
   let pic = $("<img>").attr("src","https://source.unsplash.com/random").addClass("img-fluid");
   imgDiv.append(pic);
-}, 1000 * 15)
+}, 1000 * 60 * 5)
   
 };
 
